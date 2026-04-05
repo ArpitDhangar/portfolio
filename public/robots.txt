@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://arpitdhangar.vercel.app/sitemap.xml
