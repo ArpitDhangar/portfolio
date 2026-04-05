@@ -1,16 +1,93 @@
-# React + Vite
+# 🌐 Personal Portfolio — Arpit Dhangar
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 A personal portfolio website showcasing my **projects, skills, and experience** as a Full Stack Developer.
 
-Currently, two official plugins are available:
+🔗 **Live Website:** https://portfolio-gamma-beryl-jsnzyxghpq.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 👨‍💻 About Me
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Hi, I'm **Arpit Dhangar**, a Full Stack Developer passionate about building real-world applications.
+I specialize in the **MERN stack** and enjoy solving practical problems through technology.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Features
+
+* 💼 Project showcase with live links
+* 🧑‍💻 About section highlighting skills & journey
+* 📱 Fully responsive design
+* ⚡ Fast and optimized performance
+* 📬 Contact section
+
+---
+
+## 🚀 Featured Projects
+
+### 🥛 Dairy Desk
+
+* Dairy management system for real business use
+* Automates billing and customer tracking
+
+### 📰 The Newsroom
+
+* News aggregation platform using web scraping
+* Displays headlines from multiple sources
+
+---
+
+## 🛠️ Tech Stack
+
+* React.js
+* Vite
+* HTML, CSS, JavaScript
+* Responsive Design
+
+---
+
+## ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash id="p1a2s3"
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+```
+
+### 2️⃣ Install dependencies
+
+```bash id="p2a3s4"
+npm install
+```
+
+### 3️⃣ Run the project
+
+```bash id="p3a4s5"
+npm run dev
+```
+
+---
+
+## 🚀 Future Improvements
+
+* 🌙 Dark mode
+* 🧠 AI-based project recommendations
+* 📊 Analytics integration
+* ✨ More animations and UI improvements
+
+---
+
+## 📫 Connect With Me
+
+* 💼 Portfolio: https://portfolio-gamma-beryl-jsnzyxghpq.vercel.app/
+* 💻 GitHub: https://github.com/ArpitDhangar
+* 🔗 LinkedIn: your-linkedin-link
+
+---
+
+## ⭐ Support
+
+If you like this portfolio, feel free to ⭐ the repo!
+
+---
