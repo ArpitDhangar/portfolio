@@ -48,9 +48,9 @@ export default function Hero() {
         variants={containerVariants}
         initial="hidden"
         animate="visible"
-        className="relative z-10 text-center px-6 max-w-4xl mx-auto"
+        className="relative z-10 text-center px-6 max-w-4xl mx-auto pt-20 sm:pt-0"
       >
-        <motion.div variants={itemVariants} className="mb-4">
+        <motion.div variants={itemVariants} className="mb-4 hidden sm:block">
           <span className="inline-block px-4 py-1.5 rounded-full text-xs font-medium bg-violet-500/10 border border-violet-500/30 text-violet-300">
             👋 Welcome to my portfolio
           </span>

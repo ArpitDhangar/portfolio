@@ -81,7 +81,13 @@ export default function Navbar() {
                 <li key={link.label}>
                   <a
                     href={link.href}
-                    onClick={() => setMenuOpen(false)}
+                    onClick={(e) => {
+                      e.preventDefault();
+                      setMenuOpen(false);
+                      setTimeout(() => {
+                        document.querySelector(link.href)?.scrollIntoView({ behavior: 'smooth' });
+                      }, 300);
+                    }}
                     className="text-gray-300 hover:text-white text-sm font-medium block py-1"
                   >
                     {link.label}
@@ -91,7 +97,13 @@ export default function Navbar() {
               <li>
                 <a
                   href="#contact"
-                  onClick={() => setMenuOpen(false)}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    setMenuOpen(false);
+                    setTimeout(() => {
+                      document.querySelector('#contact')?.scrollIntoView({ behavior: 'smooth' });
+                    }, 300);
+                  }}
                   className="inline-flex px-4 py-2 rounded-full text-sm font-medium bg-violet-600 text-white"
                 >
                   Hire Me
